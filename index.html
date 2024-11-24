@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Rescue Ring</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-lava.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+<style>
+
+#connect-bluetooth, #send-alert {
+    width: 200px;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.display-4 {
+    animation: fadeIn 2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            Rescue Ring
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
+                            <li class="scroll-to-section"><a href="#test" class="menu-item">Test Us</a>
+                            </li>
+                            <li class="submenu">
+                                <a href="javascript:;">Know Us</a>
+                                <ul>
+                                    <li><a href="#promotion" class="menu-item">Why Us</a></li>
+                                    <li><a href="#Analysis" class="menu-item">Analysis</a></li>
+                                    <li><a href="#testimonials" class="menu-item">Reviews</a></li>
+                               
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item" >Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="welcome-area" id="welcome">
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
+                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>Stay Safe with <em>RescueRing</em></h1>
+                        <p>
+                            RescueRing is a revolutionary emergency alert app that connects a smart ring 
+                            to notify nearby users within 1000 meters during a crisis. Leveraging advanced 
+                            Bluetooth connectivity and real-time location tracking, it ensures prompt help is 
+                            always just a tap away.
+                        </p>
+                       
+                        <a href="#about" class="main-button-slider">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>01</h2>
+                            <img src="assets/images/features-icon-2.png" alt="">
+                            <h4>Emergency Alert System</h4>
+                            <p> Instantly notify users within a 1000-meter radius in case of emergencies. The system ensures alerts reach those who can provide immediate help.</p>
+                            <a href="#testimonials" class="main-button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>02</h2>
+                            <img src="assets/images/features-icon-1.png" alt="">
+                            <h4>Bluetooth Connectivity</h4>
+                            <p>Seamlessly connect your RescueRing to the app using Bluetooth, enabling real-time communication and responsiveness.
+                            </p>
+                            <a href="#testimonials" class="main-button">
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <h2>03</h2>
+                            <img src="assets/images/location.png" alt="">
+                            <h4>Location-Based Filtering</h4>
+                            <p>Smart algorithms block redundant notifications for users within a 50-meter radius while ensuring accurate location sharing for those further out.</p>
+                            <a href="#testimonials" class="main-button">
+                                More Detail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="left-image-decor"></div>
+    <section class="section" id="promotion">
+        <div class="container">
+            <div class="row">
+                <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
+                    <ul>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                            <img src="assets/images/about-icon-01.png" alt="" width="100px" style="border-radius: 25px;">
+                            <div class="text">
+                                <h4>Your Safety, Just a Tap Away</h4>
+                                <p>RescueRing combines cutting-edge Bluetooth technology with a touch-enabled smart ring to empower users during emergencies. Simply tap the ring to broadcast your location and request help instantly. <a
+                                rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> us for
+                            additional licensing of our template or to get a PSD file.</p>
+                            </div>
+                        </li>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
+                            <img src="assets/images/about-icon-02.png" alt="" width="100px" style="border-radius: 25px;">
+                            <div class="text">
+                                <h4>Why Choose RescueRing?</h4>
+                                <p> Notify nearby users within a <a rel="nofollow"
+                                    href="">1000-meter </a>radius instantly during emergencies. Every second counts, and RescueRing ensures quick alerts to reduce response time.</p>
+                            </div>
+                        </li>
+                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
+                            <img src="assets/images/about-icon-03.png" alt="" width="100px" style="border-radius: 25px;">
+                            <div class="text">
+                                <h4>Notification Optimization</h4>
+                                <p>Our algorithms intelligently block redundant alerts for users within 50 meters, ensuring a streamlined and effective response.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container text-center mt-5" id="test">
+        <h1 class="display-4">RescueRing</h1>
+        <p class="lead">Connect your safety ring and stay alert during emergencies.</p>
+        <br><br>
+        <button id="connect-bluetooth" class="btn btn-primary mb-3">Connect to Bluetooth</button>
+        <button id="send-alert" class="btn btn-danger mb-3">Urgent: Need Help</button>
+    
+    </div>
+
+    <div class="container mt-5" id="Analysis">
+        <h2 class="text-center">Impact Statistics</h2>
+        <div class="row align-items-center mt-4">
+            <!-- Chart Column -->
+            <div class="col-lg-6 col-md-12">
+                <canvas id="survey-chart" width="400" height="200"></canvas>
+            </div>
+    
+            <!-- Explanation Column -->
+            <div class="col-lg-6 col-md-12">
+                <h4>Understanding the Data</h4>
+                <p>
+                    The graph represents the results of a recent survey conducted to measure the need and effectiveness of RescueRing:
+                </p>
+                <ul>
+                    <li><strong>65%</strong> of respondents felt safer after using RescueRing.</li>
+                    <li><strong>20%</strong> believe RescueRing's alert system significantly reduces response times during emergencies.</li>
+                    <li><strong>10%</strong> appreciated the ease of connectivity and use of the app and ring.</li>
+                    <li><strong>5%</strong> reported other positive impacts, including helping strangers in need.</li>
+                </ul>
+                <p>
+                    These insights demonstrate the growing demand for real-time emergency response systems and highlight RescueRing’s pivotal role in improving community safety.
+                </p>
+            </div>
+        </div>
+    
+        <!-- Overall Summary -->
+        <div class="mt-4">
+            <h4 class="text-center">Overall Summary</h4>
+            <p class="text-center">
+                RescueRing has proven to be a valuable tool for individuals and communities. The survey results show that a majority of users feel more secure and empowered with RescueRing, 
+                reinforcing its importance as a personal safety device. With its intuitive design and life-saving features, RescueRing is revolutionizing the way emergencies are handled.
+            </p>
+        </div>
+    </div>
+    
+    <script >
+        // Bluetooth connection
+document.getElementById('connect-bluetooth').addEventListener('click', async () => {
+    try {
+        const device = await navigator.bluetooth.requestDevice({
+            acceptAllDevices: true
+        });
+        console.log('Connected to:', device.name);
+        alert('Bluetooth Connected: ' + device.name);
+    } catch (error) {
+        alert('Bluetooth connection failed.');
+    }
+});
+
+// Send emergency alert
+document.getElementById('send-alert').addEventListener('click', () => {
+    // Fetch user location and send data to backend
+    fetch('https://api.ipinfo.info/115.242.248.226?access_key=46fc888e3d959827b5a90f5b1a945025')
+        .then(response => response.json())
+        .then(data => {
+            console.log('Location:', data);
+            alert('Emergency alert sent to nearby users.');
+        })
+        .catch(error => console.error('Error:', error));
+});
+
+// Survey chart
+const ctx = document.getElementById('survey-chart').getContext('2d');
+new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Very Useful', 'Somewhat Useful', 'Not Useful'],
+        datasets: [{
+            label: '# of Responses',
+            data: [70, 20, 10],
+            backgroundColor: ['#4CAF50', '#FFC107', '#F44336']
+        }]
+    },
+    options: {
+        responsive: true,
+    }
+});
+
+    </script>
+    <div class="right-image-decor"></div>
+
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="center-heading">
+                        <h2>What They Think <em>About Us</em></h2>
+                        <p>Saving lives, one ring at a time. Hear from users who’ve experienced RescueRing firsthand.</p>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/2.png" alt="Author One" style="border-radius: 50%; width: 200px; height: 130px;"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Avnish Kumar</h4>
+                                <p>“RescueRing gave me peace of mind during my morning runs. Knowing that help is just a tap away is a game-changer.”</p>
+                                <span>Smart Bloom - CEO</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/3.png" alt="Second Author" style="border-radius: 50%; width: 200px; height: 130px;"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Ankit Kumar</h4>
+                                <p>“he alert system worked flawlessly during an emergency drill. It's an essential tool for every household!”</p>
+                                <span>Web Analyst</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/4.png" alt="Author Third" style="border-radius: 50%; width: 200px; height: 130px;"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Aman Kumar</h4>
+                                <p>“RescueRing has been a game-changer for our neighborhood. During a community event, someone fainted, and I was able to alert nearby volunteers instantly. Help arrived in under 2 minutes. This technology is a must-have for everyone!”</p>
+                                <span>Community Volunteer</span>
+                            </div>
+                        </div>
+                        <div class="item service-item">
+                            <div class="author">
+                                <i><img src="assets/images/1.png" alt="Fourth Author" style="border-radius: 50%; width: 200px; height: 130px;"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <h4>Saloni Singh</h4>
+                                <p>"As a student living far from home, I always felt anxious about personal safety. RescueRing made me feel secure, knowing I could alert others during emergencies. Once, I used it to help someone injured in a cycling accident—it felt amazing to be able to assist so quickly."</p>
+                                <span>College Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact-us">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="contact-form">
+                            <form id="contact" action="" method="post">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+
+                                        <fieldset>
+                                        
+                                            <input name="name" type="text" id="name" placeholder="Full Name" required=""
+                                                style="background-color: rgba(250,250,250,0.3);">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <fieldset>
+                                            <input name="email" type="text" id="email" placeholder="E-Mail Address"
+                                                required="" style="background-color: rgba(250,250,250,0.3);">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="message" rows="6" id="message" placeholder="Your Message"
+                                                required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="main-button">Send Message
+                                                Now</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
+                        <h2> Get In Touch with <em>RescueRing </em></h2>
+                        <p>RescueRing is built with your safety in mind. For feedback, inquiries, or partnerships, drop us a message. We’re committed to improving emergency response for everyone. <a
+                                rel="nofollow" href="#" target="_parent">contact</a> page
+                            for more detail.</p>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="sub-footer">
+                        <p>Copyright &copy; 2024 Rescue Ring
+                        | Designed by <a rel="nofollow" href="https://www.linkedin.com/in/ankit071105/">Ankit Kumar</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>

@@ -263,8 +263,7 @@ document.getElementById('connect-bluetooth').addEventListener('click', async () 
 
 // Send emergency alert
 document.getElementById('send-alert').addEventListener('click', () => {
-    // Fetch user location and send data to backend
-    fetch('https://api.ipinfo.info/115.242.248.226?access_key=46fc888e3d959827b5a90f5b1a945025')
+    fetch('https://api.ipinfo.info/115.242.248.226?access_key=b332160fb635d319cd79f3b7b21b5e49')
         .then(response => response.json())
         .then(data => {
             console.log('Location:', data);
